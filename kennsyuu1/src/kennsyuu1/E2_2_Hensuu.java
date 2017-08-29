@@ -1,4 +1,7 @@
 package kennsyuu1;
+/*
+ *三つのint型変数に値を代入し、合計と平均を求めるプログラムを作成せよ
+ */
 
 // 三つのint型変数に値を代入し、合計と平均を求めるクラス
 public class E2_2_Hensuu {
@@ -10,8 +13,11 @@ public class E2_2_Hensuu {
 		// 計算対象となる2つ目の変数を宣言する
 		int secondValue;
 		// 計算対象となる
-		3つ目の変数を宣言する
+		// 3つ目の変数を宣言する
+
 		int thirdValue;
+
+
 
 		// 計算対象となる1つ目の数値を設定する
 		firsValue = 10;
