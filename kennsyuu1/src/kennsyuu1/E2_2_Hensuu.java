@@ -12,9 +12,7 @@ public class E2_2_Hensuu {
 		int firsValue;
 		// 計算対象となる2つ目の変数を宣言する
 		int secondValue;
-		// 計算対象となる
-		// 3つ目の変数を宣言する
-
+		// 計算対象となる3つ目の変数を宣言する
 		int thirdValue;
 
 
