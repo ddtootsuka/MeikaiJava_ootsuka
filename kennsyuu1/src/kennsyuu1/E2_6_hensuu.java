@@ -16,14 +16,14 @@ public class E2_6_hensuu {
 				// 底辺を表示させる文字を出力する
 				System.out.println("底辺:");
 				// xに底辺の値をインプットさせる
-				double x = putinKey.nextDouble();
+				double base = putinKey.nextDouble();
 				// 高さを表示させる文字を出力する
 				System.out.println("高さ");
 				// yに高さの値をインプットさせる
-				double y = putinKey.nextDouble();
+				double height = putinKey.nextDouble();
 
-				// xとyを足して２割る計算式を表示させる
-				System.out.println("面積は" + (x * y) /2 );
+				// baseとheightを足して２で割る計算式を表示させる
+				System.out.println("面積は" + (base * height) /2 );
 
 
 }
