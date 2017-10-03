@@ -8,8 +8,8 @@ package kennsyuu1;
 import java.util.Scanner;
 // キーボードから読み込んだ整数値を反復して表示するプログラムを作成するクラス
 public class E2_3_Hensuu {
+	//整数値をそのまま反復して表示させる
 	private static Scanner NUM1;
-
 	//キーボードから読み込んだ整数値をそのまま反復して表示するプログラムを作成します
 	public static void main(String[] args) {
 		// 整数値を表示させる出力コードを入力します
