@@ -12,6 +12,8 @@ package kennsyuu1;
 
 import java.util.Random;
 //３つの条件を示すプログラムを作成するクラス
+
+
 public class E2_7_Ransuu {
 	// 整数値をランダムに生成して表示させる
 		public static void main(String[] args) {
@@ -20,24 +22,21 @@ public class E2_7_Ransuu {
 		Random rand = new Random();
 
 		// 1桁の1以上9以下の値をランダムに表示させる
-		int randomnum = rand.nextInt(9)+1;
+		int randomNum = rand.nextInt(9)+1;
 
 		// 1桁の-9以上-1以下の値をランダムに表示させる
-		int randomnum2 = rand.nextInt(9)-9;
+		int randomNum2 = rand.nextInt(9)-9;
 
 		// 2桁の10以上99以下の値をランダムに表示させる
-		int randomnum3 = rand.nextInt(90)+10;
+		int randomNum3 = rand.nextInt(90)+10;
 
 
 		// ランダムに生成される数字を表示させる
-		System.out.println(randomnum);
+		System.out.println(randomNum);
 		// ランダムに生成される数字を表示させる
-		System.out.println(randomnum2);
-				// ランダムに生成される数字を表示させる
-		System.out.println(randomnum3);
-
-
-
+		System.out.println(randomNum2);
+		// ランダムに生成される数字を表示させる
+		System.out.println(randomNum3);
 
 	}
 
