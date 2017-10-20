@@ -14,24 +14,27 @@ import java.util.Random;
 //３つの条件を示すプログラムを作成するクラス
 public class E2_7_Ransuu {
 	// 整数値をランダムに生成して表示させる
-	public static void main(String[] args) {
-		// 乱数の生成を行う
+		public static void main(String[] args) {
+
+	    // 乱数の生成を行う
 		Random rand = new Random();
+
 		// 1桁の1以上9以下の値をランダムに表示させる
-		int lucky = rand.nextInt(10)+1;
-		// 1桁の-9以下-1以下の値をランダムに表示させる
-		int lucky2 = rand.nextInt(8)-8;
+		int randomnum = rand.nextInt(9)+1;
+
+		// 1桁の-9以上-1以下の値をランダムに表示させる
+		int randomnum2 = rand.nextInt(9)-9;
+
 		// 2桁の10以上99以下の値をランダムに表示させる
-		int lucky3 = rand.nextInt(89)+10;
+		int randomnum3 = rand.nextInt(90)+10;
 
 
 		// ランダムに生成される数字を表示させる
-		System.out.println(lucky);
+		System.out.println(randomnum);
 		// ランダムに生成される数字を表示させる
-		System.out.println(lucky2);
+		System.out.println(randomnum2);
 				// ランダムに生成される数字を表示させる
-		System.out.println(lucky3);
-
+		System.out.println(randomnum3);
 
 
 
