@@ -5,40 +5,27 @@ package kennsyuu1;
  * */
 
 import java.util.Random;
-import java.util.Scanner;
 
-public class 新規 {
+public class E2_8_Ransuu {
 
-	// キーボードから読み込んだ整数値を±5の範囲の整数値をランダムに生成する
+	// キーボードから読み込んだ整数値をそのまま反復してそのまま表示させます
 	public static void main(String[] args) {
-	    //　整数を表示させる
 
-		// キーボードと結びつく入力ストリームを入力します
-		Scanner stdIn = new Scanner(System.in);
-		// 乱数の生成を行う
-		Random rand = new Random();
+		//"整数"を表示させる出力コードを入力します
+        System.out.println("整数値：100");
 
-		//整数値を表示させる文字を表示
-		System.out.println("整数値：");
-		// 整数の値を入力させる
-		int x = rand.nextInt();
 
-		// ±5の乱数値を入力させる
-		int k = rand.nextInt(11)-5;
+		//乱数の生成を行う
+		Random number1 =new Random();
 
-		//二つの数値を足して表示させる
-		System.out.println("x + y ");
+		//±5の乱数値を入力させる
+		int randomNumbox = number1.nextInt(11)+95 ;
 
 
 
-
+		//ランダムに出力される数字を表示させる
+		System.out.println("その値の±5の乱数を生成しました。それは"+ randomNumbox +"です。");
 
 	}
-
-
-
-
-
 }
-
 
