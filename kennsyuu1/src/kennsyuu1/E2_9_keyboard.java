@@ -15,9 +15,9 @@ public static void main(String[] args) {Random rand = new Random();
     // 0.0以上1.0未満の実数値をランダムに表示させる
 	double x = rand.nextDouble();
 	// 0.0以上10.0未満の実数値をランダムに表示させる
-	double y = rand.nextDouble()*10.0;
+	double y = rand.nextDouble()*10; 
 	// -1.0以上1.0未満の実数値をランダムに表示させる
-	double z = rand.nextDouble()*2.0-1.0;
+	double z = rand.nextDouble()*-1;
 
 	// ランダムに生成される数字を表示させる
 	System.out.println(x);
@@ -31,3 +31,7 @@ public static void main(String[] args) {Random rand = new Random();
 
 
 }
+
+
+
+
