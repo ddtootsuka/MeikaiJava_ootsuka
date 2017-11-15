@@ -6,25 +6,34 @@ package kennsyuu1;
 
 import java.util.Scanner;
 
+// 整数から絶対値を求めて表示させるクラス
 public class E3_1_if {
 
 	public static void main(String[] args) {
+		//キーボードのスキャナーを入力します
 		Scanner stdIn = new Scanner(System.in);
-		// 	整数値という文字を表示させる
+
+        //指定した文字、整数値：を表示させる
 		System.out.print("整数値：");
 
-		int n = stdIn.nextInt();
+		//文字を読み込む
+		int num = stdIn.nextInt();
+		//負の整数値が入力された場合、減算される
+        int num2 = -num;
+
+        //0と入力した数値がtrueであるか判別させる
+		if ( num > 0 ) {
+		//画面に指定した文字と数字を入力させる
+		System.out.println("その絶対値は" + num + "です。");
 
 
-
-		public static double abc(double a) {
-			return (a <= 0.0D) ? 0.0D - a ; a;
+		//0と入力した数値がfalseであるか判別させる
+		} else if ( num < 0 ){
+		//画面に指定した文字と数字を入力させる
+		System.out.println("その絶対値は" + num2 + "です。");
 		}
-
-
-	if( n < 0)
-		System.out.println("その絶対値は" + n + "です。");
 
 
 	}
 
+}
