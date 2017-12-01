@@ -20,20 +20,20 @@ public class E3_3_case1if {
 		// 0とnumber1がtrueであるか判別させる
 		if (number1 > 0)
 
-		// trueであれば指定された文字を表示させる
-		System.out.println("その値は正です。");
+			// trueであれば指定された文字を表示させる
+			System.out.println("その値は正です。");
 
 		// 0と入力した数値がfaiseであるか判別させる
 		else if (number1 < 0)
 
-		// falseであれば指定された文字を表示させる
-        System.out.println("その値は負です。");
+			// falseであれば指定された文字を表示させる
+			System.out.println("その値は負です。");
 
 		// 0と入力した数値が等しい値か判別させる
 		else if (number1 == 0)
 
-		// 0とイコールの値であれば指定された文字を表示する
-		System.out.println("その値は0です。");
+			// 0とイコールの値であれば指定された文字を表示する
+			System.out.println("その値は0です。");
 
 		/*
 		 * 結果としては、そのまま０は表示される。 elseの場合も結果は０になりますし、0が対象となっている限り if ( n == 0
