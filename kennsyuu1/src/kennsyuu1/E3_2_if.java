@@ -33,11 +33,11 @@ public class E3_2_if {
 			// 約数の場合、"BはAの約数です。"と表示させる
 			System.out.println("BはAの約数です。");
 
-		//そうでない場合、
+		// そうでない場合、
 		else
-		// BはAの約数ではない場合、"BはAの約数ではありません。"と表示させる
+			// BはAの約数ではない場合、"BはAの約数ではありません。"と表示させる
 
-		System.out.println("BはAの約数ではありません。");
+			System.out.println("BはAの約数ではありません。");
 
 	}
 }
