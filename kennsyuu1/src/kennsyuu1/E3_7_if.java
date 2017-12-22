@@ -14,24 +14,30 @@ public class E3_7_if {
 	public static void main(String[] args) {
 		// キーボードのスキャナーを入力します
 		Scanner stdIn = new Scanner(System.in);
-		//画面に整数値:と表示させます
+		// 画面に整数値:と表示させます
 		System.out.print("整数値:");
 		// 変数aに値を入力させます
-		int a =stdIn.nextInt();
+		int integerA = stdIn.nextInt();
 
-		if( a % 3 == 0 )
-			// 3で割り切れた際に、"その値は3で割り切れます。"と表示させる
-			System.out.println("その値は3で割り切れます。");
-		else if( a % 3 == 1 )
-			// 3で割って余りが1出た際に、"その値を3で割った余りは1です。"と表示させる
-			System.out.println("その値を3で割った余りは1です。");
-		else if( a % 3 == 2 )
-			// 3で割って余りが2出た際に、"その値を3で割った余りは2です。"と表示させる
-			System.out.println("その値を3で割った余りは2です。");
-		else if( a < 0 )
+		// 変数Aが正数であるかを判別させる
+		if (integerA > 1) {
+			// 変数Aを3で割った際に、0になるかを判別させる
+			if (integerA % 3 == 0) {
+				// 3で割り切れた際に、"その値は3で割り切れます。"と表示させる
+				System.out.println("その値は3で割り切れます。");
+				// 変数Aを割った際に、余りが1になるかを判別させる
+			} else if (integerA % 3 == 1) {
+				// 3で割って余りが1出た際に、"その値を3で割った余りは1です。"と表示させる
+				System.out.println("その値を3で割った余りは1です。");
+				// 変数Aを3で割った際に、余りが2になるかを判別させる
+			} else if (integerA % 3 == 2) {
+				// 3で割って余りが2出た際に、"その値を3で割った余りは2です。"と表示させる
+				System.out.println("その値を3で割った余りは2です。");
+			}
+			// 変数Aが整数であるかを判別させる
+		} else if (integerA < 0) {
 			// 0以下の値が入った際に、"正でない値が入力されました。"と表示させます
 			System.out.println("正でない値が入力されました。");
-
-
+		}
 	}
 }
