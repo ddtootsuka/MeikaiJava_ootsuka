@@ -9,18 +9,17 @@ import java.util.Scanner;
 public class E3_10 {
 
 	public static void main(String[]args){
-		// キーボードのスキャナーを入力します
+		// キーボードに打ち込んだ文字を入力する
 		Scanner stdIn = new Scanner(System.in);
-
 
 		//"実数値A"と画面に表示させる
 		System.out.print("実数値A:");
-		//データを入力する
+		//変数Aに入れるデータを入力する
 		int RealValueA = stdIn.nextInt();
 
 		//"実数値B"と画面に表示させる
 		System.out.print("実数値B:");
-		//データを入力する
+		//変数Bに入れるデータを入力する
 		int RealValueB = stdIn.nextInt();
 
 		//実数値Aから実数値Bを減算し、また実数値Bから実数値Aを減算した二つの値を比較し、実数値Aの方が大きければその値をそのまま代入する
