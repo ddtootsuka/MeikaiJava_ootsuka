@@ -27,14 +27,14 @@ public class E3_12 {
 		System.out.print("整数値C：");
 		//データを入力する
 		int IntegerC = stdIn.nextInt();
-		
+
 		//最小値Aを最小値として入力する
 		int min = IntegerA;
-		
+
 		//最小値Bと最小値を比較し、最小値より値が小さければ最小値に値を入れる
-		if(IntegerB < min) min = IntegerB;
+		if(IntegerB < min) {min = IntegerB;}
 		//最小値Cと最小値を比較し、最小値より値が小さければ最小値に値を入れる
-		if(IntegerC < min) min = IntegerC;
+		if(IntegerC < min) {min = IntegerC;}
 
 		System.out.println("最小値は" + min + "です");
 
