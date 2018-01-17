@@ -28,9 +28,9 @@ public class E3_11 {
 		int value = (IntegerA > IntegerB ? IntegerA - IntegerB :IntegerB - IntegerA);
 
 		//整数値Aが10以下の場合、"それらの差は10以下です。"と表示させる。
-		if(IntegerA < 10)
+		if(IntegerA < 10) {
 		System.out.println("それらの差は10以下です。");
-
+		}
 		//差が10以上の場合、"それらの差は11以上です。"と表示させる。
 		else
 		System.out.println("それらの差は11以上です。");
