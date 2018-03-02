@@ -27,24 +27,33 @@ public class E3_14_nichinoatai {
 		// 小さいほうの値と、大きいほうの値を導入する
 		int min, max;
 
-		// もし整数Aが整数Bより小さければ、小さいほうの値に整数Aをいれ、大きいほうの値に整数Bをいれる
-		if (IntegerA < IntegerB) {
-			min = IntegerA;
-			max = IntegerB;
-	
-		// そうでなければ、小さいほうに整数Bをいれ、大きいほうに整数Aをいれる
-		} else {
-			min = IntegerB;
-			max = IntegerA;
-		}
-
-		//整数Aと整数Bの値が同じであるか判別させる
+		// 整数Aと整数Bの値が同じであるか判別させる
 		if (IntegerA == IntegerB) {
+
 			// 画面に二つの値は同じですと表示させます。
 			System.out.println("二つの値は同じです。");
 		}
 
+		// もし整数Aが整数Bより小さければ、小さいほうの値に整数Aをいれ、大きいほうの値に整数Bをいれる
+		else if (IntegerA < IntegerB) {
+			min = IntegerA;
+			max = IntegerB;
+			
+			// 画面に"小さいほうの値は○です。"と表示させる
+			System.out.println("小さいほうの値は" + min + "です。");
+			// 画面に"大きいほうの値は○です。"と表示させる
+			System.out.println("大きいほうの値は" + max + "です。");
+		}
+		// そうでなければ、小さいほうに整数Bをいれ、大きいほうに整数Aをいれる
+		else {
+			min = IntegerB;
+			max = IntegerA;
+
+			// 画面に"小さいほうの値は○です。"と表示させる
+			System.out.println("小さいほうの値は" + min + "です。");
+			// 画面に"大きいほうの値は○です。"と表示させる
+			System.out.println("大きいほうの値は" + max + "です。");
+
+		}
 	}
 }
-
-	
