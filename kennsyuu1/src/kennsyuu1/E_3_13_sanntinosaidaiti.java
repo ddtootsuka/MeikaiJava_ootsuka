@@ -32,14 +32,13 @@ public class E_3_13_sanntinosaidaiti {
 		int median = IntegerA;
 
 		// 整数値Bと中央値を比較し、整数値Bの方が大きければそのまま値を代入する
-		if (IntegerB < median)
+		if (IntegerB > median)
 			median = IntegerB;
 		{
 
 			// 整数値Cと中央値を比較し、整数値Cの方が大きければそのまま値を代入する
 		}
-
-		if (IntegerC > median) {
+		if (IntegerC < median) {
 			median = IntegerC;
 		}
 		// 画面に"中央値は〇です。"と表示させる
