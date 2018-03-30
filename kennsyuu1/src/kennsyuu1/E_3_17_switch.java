@@ -11,8 +11,8 @@ public class E_3_17_switch {
 	public static void main(String[] args) {
 		Random rand = new Random();
 
-		// 0~3の乱数を生成します
-		int Ransuu = rand.nextInt(4);
+		// 0~2の乱数を生成します
+		int Ransuu = rand.nextInt(3);
 
 		// 画面に下記、文を表示させます
 		System.out.print("手を表示せよ(0・・グー/1・・チョキ/2・・パー)" + Ransuu + "：");
