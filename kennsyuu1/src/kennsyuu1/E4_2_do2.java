@@ -23,24 +23,24 @@ public class E4_2_do2 {
 		System.out.println("10~99の数を当ててください");
 
 		// プレイヤーが入力した数値
-		int player;
+		int playerNumber;
 
 		//do文を実行
 		do {
 			// 画面に"いくつかな？"と表示させる
 			System.out.print("いくつかな？");
 			// playerに値を読み込む
-			player = stdIn.nextInt();
+			playerNumber = stdIn.nextInt();
 
-			// もしplayerがgameNumberより大きければ、画面に"もっと小さな数字です!"と表示させる
-			if (player > gameNumber)
+			// もしplayerNumberがgameNumberより大きければ、画面に"もっと小さな数字です!"と表示させる
+			if (playerNumber > gameNumber)
 				System.out.println("もっと小さな数字です!");
-			// また、gameNumberがplayerよりも小さければ、画面に"もっと大きな数です!"と表示させる
-			else if (player < gameNumber)
+			// また、gameNumberがplayerNumberよりも小さければ、画面に"もっと大きな数です!"と表示させる
+			else if (playerNumber < gameNumber)
 				System.out.println("もっと大きな数です!");
 		}
-		// playerとgameNumberが等しくなければ繰り返す
-		while (player != gameNumber);
+		// playerNumberとgameNumberが等しくなければ繰り返す
+		while (playerNumber != gameNumber);
 
 		// 画面に"正解です!"と表示させる
 		System.out.println("正解です!");
