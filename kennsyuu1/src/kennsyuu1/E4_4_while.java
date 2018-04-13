@@ -26,12 +26,27 @@ public class E4_4_while {
 			//打ち込む数字が0以下であれば繰り返す
 		} while (countnumber <= 0);
 		
-		//打ち込んだ値を-1までカウントダウンさせます
-		while (countnumber >= -1) {
+		//打ち込んだ値を0までカウントダウンさせます
+		while (countnumber >= 0) {
 			//打ち込んだ数を画面に表示させます
 			System.out.println(countnumber);
 			//打ち込んだ値をデクリメントする
 			countnumber--;
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
 		}
 		
 	}
