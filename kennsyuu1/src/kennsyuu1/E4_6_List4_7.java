@@ -18,7 +18,7 @@ public class E4_6_List4_7 {
 
 		// 画面に"何個*を表示しますか？："と表示させる
 		System.out.print("何個*を表示しますか？：");
-		// ｎに値を代入する
+		// ｎに打ち込んだ値を代入する
 		int n = stdIn.nextInt();
 
 		// 変数iに０を代入する
@@ -31,6 +31,6 @@ public class E4_6_List4_7 {
 			i++;
 		}
 		//改行を表示する
-		System.out.println();
+		System.out.print("改行テスト\n改行テスト");
 	}
 }
