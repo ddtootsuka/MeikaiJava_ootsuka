@@ -29,8 +29,11 @@ public class E4_6_List4_7 {
 			System.out.println('*');
 			//iの値をインクリメントする
 			i++;
+	
+		//（わかりやすくするために改行テストの文字を入力する）改行を表示する
+		System.out.println("改行テスト\n改行テスト");
 		}
-		//改行を表示する
-		System.out.print("改行テスト\n改行テスト");
-	}
+	if(i > 0);
+	System.out.println();
+}
 }
