@@ -25,11 +25,11 @@ public class E4_6_List4_8 {// 処理を行うメインメソッド
 			System.out.println('*');
 			// iの値をインクリメントする
 			i++;
-
-			// 改行を表示する
-			System.out.println("改行テスト");
 		}
-		if (1 > 0)
+		// iが0より小さい場合、
+		if (1 > 0) {
+			//改行文字を出力しない
 			System.out.println();
 	}
+}
 }
