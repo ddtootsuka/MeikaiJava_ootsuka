@@ -14,20 +14,20 @@ public class E4_6_List4_8 {// 処理を行うメインメソッド
 
 		// 画面に"何個*を表示しますか？："と表示させる
 		System.out.print("何個*を表示しますか？：");
-		// kosuu(個数)に値を代入する
+		// アスタリスクを表示させる個数に値を代入する
 		int kosuu = stdIn.nextInt();
 
-		// 変数(variable)に1を代入する
-		int variable = 1;
-		// kosuu(個数)が1より大きければ、または同じ数であれば繰り返す
-		while (variable <= kosuu) {
+		//　個数と比較する値に1を代入する
+		int atai = 1;
+		// 個数が1より大きければ、または同じ数であれば繰り返す
+		while (atai <= kosuu) {
 			// 画面に'*'を表示させる
 			System.out.println('*');
-			// 変数(variable)の値をインクリメントする
-			variable++;
+			// 個数と比較する値をインクリメントする
+			atai++;
 		}
-		// 変数(variable)が0より小さい場合、
-		if (variable > 0) {
+		// 個数と比較する値が0より小さい場合、
+		if (atai > 0) {
 			// 改行文字を出力しない
 			System.out.println();
 		}
