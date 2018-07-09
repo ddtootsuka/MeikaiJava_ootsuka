@@ -18,13 +18,13 @@ public class E4_6_List4_7 {
 
 		// 画面に"何個*を表示しますか？："と表示させる
 		System.out.print("何個*を表示しますか？：");
-		// ｎに打ち込んだ値を代入する
-		int n = stdIn.nextInt();
+		// 値に打ち込んだ値を代入する
+		int atai = stdIn.nextInt();
 
 		// 変数iに０を代入する
 		int i = 0;
-		// ｎが０より大きければ繰り返す
-		while (i < n) {
+		// 値が０より大きければ繰り返す
+		while (i < atai) {
 			// 画面に'*'を表示させる
 			System.out.println('*');
 			// iの値をインクリメントする
