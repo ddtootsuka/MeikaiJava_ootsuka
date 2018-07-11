@@ -21,20 +21,20 @@ public class E4_6_List4_7 {
 		// アスタリスクを表示させる個数に値を代入する
 		int number = stdIn.nextInt();
 
-		// 個数と比較させる値に０を代入する
-		int variable = 0;
-		// 比較させる値が０より大きければ繰り返す
-		while (number < variable ) {
+		// 個数と比較させる値に1を代入する
+		int variable = 1;
+		// 読み込んだ値が1未満であれば改行文字を出力しないように、比較させる値が1より大きければ繰り返す
+		while (variable < number) {
 			// 画面に'*'を表示させる
 			System.out.println('*');
 			// iの値をインクリメントする
-			i++;
+			variable++;
 
 			// （わかりやすくするために改行テストの文字を入力する）改行を表示する
 			System.out.println("改行テスト\n改行テスト");
 		}
-		// iが0より小さい場合、
-		if (i > 0) {
+		// 比較させる値が1より小さい場合、
+		if (variable > 1) {
 			// 改行文字を出力しない
 			System.out.println("改行");
 		}
