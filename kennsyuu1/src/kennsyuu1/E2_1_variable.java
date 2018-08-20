@@ -1,4 +1,4 @@
-package kennsyuu1;
+package kennsyuu21;
 
 /*
  * List2-6の２の箇所を小数部をもつ実値をXとYに代入するよう変更して、
@@ -15,18 +15,21 @@ public class E2_1_variable {
 		// 整数2をいれるための箱を作成します
 		int variable2;
 
-		// variable1に63.1を代入する
+		// variable1に小数点を含んだ数値、63.1を代入する
 		variable1 = 63.1;
-		// variable2に18.1を代入する
+		// variable2に小数点を含んだ数値、18.1を代入する
 		variable2 = 18.1;
 
-		// 画面に"variable1の値は" + variable1 + "です。"と表示させる。
+		// variable1を表示させるために、variable1の値を画面に表示させる
 		System.out.println("variable1の値は" + variable1 + "です。");
-		// 画面に"variable2の値は" + variable2 + "です。"と表示させる。
+		
+		// variable2を表示させるために、variable2の値を画面に表示させる
 		System.out.println("variable2の値は" + variable2 + "です。");
-		// 画面に"合計は" + (variable1 + variable2) + "です。"と表示させる
+		
+		// 合計を表示させるために、variable1とvariable2を足した数を画面に表示させる
 		System.out.println("合計は" + (variable1 + variable2) + "です。");
-		// 画面に"平均は" + (variable1 + variable2) / 2 + "です。"と表示させる
+		
+		//　平均を表示させるために、variable1とvariable2を足し、2で割った数値を画面に表示させる
 		System.out.println("平均は" + (variable1 + variable2) / 2 + "です。");
 	}
 
