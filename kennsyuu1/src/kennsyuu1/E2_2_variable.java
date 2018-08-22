@@ -10,21 +10,28 @@ public class E2_2_variable {
 	//メインメソッドを宣言します
 	public static void main(String[] args) {
 		
-		//int型の変数、variable1
-		int variable1 = 5
-		//int型の変数、variable2
-		int variable2 = 3
-		//int型の変数、variable3
-		int variable3 = 2
+		//int型の変数、variable1を宣言する
+		int variable1;
+		//int型の変数、variable2を宣言する
+		int variable2;
+		//int型の変数、variable3を宣言する
+		int variable3;
 		
-		//variable1に5を代入する
-		int variable1 = 5
-		//variable2に3を代入する
-		int variable2 = 3
-		//variable3に2を代入する
-		int variable3 = 2
+		//3つの整数値の合計と平均を求めるためにvariable1に5を代入する
+		variable1 = 5;
+		//3つの整数値の合計と平均を求めるためにvariable2に3を代入する
+		variable2 = 3;
+		//3つの整数値の合計と平均を求めるためにvariable3に2を代入する
+		variable3 = 2;
 		
-		
+		//variable1の値を画面に表示させる
+		System.out.println("variable1の値は " + variable1 + "です。");
+		//variable2の値を画面に表示させる
+		System.out.println("variable2の値は " + variable2 + "です。");	
+		//variable3の値を画面に表示させる
+		System.out.println("variable3の値は " + variable3 + "です。");
+		//3つの整数値の合計を画面に表示させる
+		System.out.println("合計は " + (variable1 + variable2 + variable3) + "です。");
 		
 		
 	}
