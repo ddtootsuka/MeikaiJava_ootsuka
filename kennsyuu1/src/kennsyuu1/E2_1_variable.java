@@ -34,3 +34,6 @@ public class E2_1_variable {
 	}
 
 }
+
+	//結果：小数点を含んだ数をvariable1,variable2に代入しているため、エラーとなりプログラムを実行することが出来ない。
+
