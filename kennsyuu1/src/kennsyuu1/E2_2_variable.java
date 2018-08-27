@@ -32,7 +32,8 @@ public class E2_2_variable {
 		System.out.println("variable3の値は " + variable3 + "です。");
 		//3つの整数値の合計を画面に表示させる
 		System.out.println("合計は " + (variable1 + variable2 + variable3) + "です。");
-		
+		//3つの整数値の平均を画面に表示させる
+		System.out.println("平均は" + (variable1 + variable2 + variable3) / 2 + "です。");
 		
 	}
 	
