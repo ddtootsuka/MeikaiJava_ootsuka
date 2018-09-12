@@ -17,11 +17,11 @@ public class E2_6_variable {
 		//三角形の面積を求めますと画面に表示させる
 		System.out.println("三角形の面積を求めます");
 	
-		//底辺を画面に表示させる
+		//キーボードから読み込ませる値を底辺として表示させるために"底辺："と画面に表示させる
 		System.out.print("底辺：");
 		//baseに底辺となる実数地を読み込ませる
 		double base = stdIn.nextDouble();
-		//高さを画面に表示させる
+		//キーボードから読み込ませる値を高さとして表示させるために"高さ："と画面に表示させる
 		System.out.print("高さ：");
 		//hightに高さとなる実数地を読み込ませる
 		double hight = stdIn.nextDouble();		
