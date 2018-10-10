@@ -21,7 +21,7 @@ public class E2_7_variable {
 		int Randomnumber1 = variable.nextInt(9)+1;
 		
 		//Randomnumber2に-９以上-１以下の値がランダムに入るようにする
-		int Randomnumber2 = variable.nextInt(10)-9;
+		int Randomnumber2 = variable.nextInt(9)-9;
 
 		//Randomnumber3に１０以上９９以下の値がランダムに入るようにする
 		int Randomnumber3 = 10 + variable.nextInt(90);
