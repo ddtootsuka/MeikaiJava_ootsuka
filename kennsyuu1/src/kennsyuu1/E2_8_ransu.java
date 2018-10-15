@@ -1,5 +1,6 @@
 package kennsyuu1;
 
+import java.util.Random;
 import java.util.Scanner;
 
 /*
@@ -11,18 +12,23 @@ import java.util.Scanner;
 public class E2_8_ransu {
 
 	//メインメソッドを宣言する
-		public static void main(String[] args) {
-			Scanner stdIn = new Scanner(System.in);
+	public static void main(String[] args) {
+		Scanner stdIn = new Scanner(System.in);
+		Random test= new Random();
 			
-			//適当二世数値をうちこむ
+			//"整数値："と画面に表示させる
 			System.out.print("整数値：");
 	
-			int randomnum = stdIn.nextInt(5)-5;
-	
-			//画面に"その値の"
+			//randomnum にキーボードから読み込んだ整数値を読み込ませる
+			int randomnum = stdIn.nextInt();
+				
+			int Randomnum = random.nextInt(90);
+			
+			//画面に"その値の±５の乱数を生成しました。それは" + randomnum + "と表示させる。
 			System.out.println("その値の±５の乱数を生成しました。それは" + randomnum + "です");
 			
 			
 		}
+	
 		
 }
