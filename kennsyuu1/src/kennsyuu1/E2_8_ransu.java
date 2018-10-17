@@ -17,7 +17,7 @@ public class E2_8_ransu {
 		Random randomnum2 = new Random();
 
 		// 5～-5の範囲をランダムに表示させる
-		int random = randomnum2.nextInt(10) - 5;
+		int random = randomnum2.nextInt(11) - 5;
 
 		// "整数値："と画面に表示させる
 		System.out.print("整数値：");
