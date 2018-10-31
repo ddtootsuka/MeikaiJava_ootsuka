@@ -34,7 +34,7 @@ public class E2_9_randomnumber {
 		System.out.println("0.0以上10.0未満の実数値は" + RandomNum2 + "です。");
 
 		// -1.0以上1.0未満の乱数を生成する
-		double RandomNum3 = rand.nextDouble()*-10;
+		double RandomNum3 = rand.nextDouble()*-1;
 		
 		// 画面に"-1.0以上1.0未満の実数値は"+ RandomNum3 + "です。"を表示させる
 		System.out.println("-1.0以上1.0未満の実数値は" + RandomNum3 + "です。");
