@@ -18,9 +18,14 @@ public class E3_1_ifinteger {
 		// キーボードから読み込ませた値をmustnumに宣言する
 		int mustnum = stdIn.nextInt();
 
-		// もし、０よりmustnumが小さければ、画面に"その絶対値は"+ mustnum + "です。"と正の値を表示させる
-		if (mustnum < 0)
+		// もし、０よりmustnumが小さければ、画面に"その絶対値は"+ mustnum + "です。"と絶対値を表示させる
+		if (mustnum < 0) {
 			System.out.println("その絶対値は" + -mustnum + "です。");
+		}
 
+		//もし、０よりmustnumが大きければ、画面に"その絶対値は"+ mustnum + "です。"と絶対値を表示させる
+		else {
+			System.out.println("その絶対値は" + mustnum + "です。");
+		}
 	}
 }
