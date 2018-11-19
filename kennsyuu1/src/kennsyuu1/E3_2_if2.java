@@ -30,6 +30,9 @@ public class E3_2_if2 {
 			System.out.println("BはAの約数です");
 		} else if (variableA < variableB) {
 			System.out.println("BはAの約数ではありません");
+		}else {
+			System.out.println("BはAの約数ではありません");
 		}
+		
 	}
 }
