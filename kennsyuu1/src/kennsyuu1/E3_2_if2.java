@@ -17,20 +17,19 @@ public class E3_2_if2 {
 
 		// 画面に"整数A：" と表示させる
 		System.out.println("整数A：");
-		// キーボードから読み込ませた値をvariableaに宣言する
-		int variablea = stdIn.nextInt();
+		// キーボードから読み込ませた値をvariableA（整数A）に宣言する
+		int variableA = stdIn.nextInt();
 
 		// 画面に"整数B：" と表示させる
 		System.out.println("整数B：");
-		// キーボードから読み込ませた値をvariablebに宣言する
-		int variableb = stdIn.nextInt();
+		// キーボードから読み込ませた値をvariableB（整数B）に宣言する
+		int variableB = stdIn.nextInt();
 
-		// variableaとvariablebを比較させ、variableaがvariablebで割り切れれば"BはAの約数です"と画面に表示させ、割り切れなければ"BはAの約数ではありません"と画面に表示させる
-		if (variablea > variableb)
-			if (variablea % variableb == 0) {
-				System.out.println("BはAの約数です");
-			} else {
-				System.out.println("BはAの約数ではありません");
-			}
+		// variableAとvariableBを比較させ、variableAがvariableBで割り切れれば"BはAの約数です"と画面に表示させ、割り切れなければ"BはAの約数ではありません"と画面に表示させる
+		if (variableA % variableB == 0) {
+			System.out.println("BはAの約数です");
+		} else if (variableA < variableB) {
+			System.out.println("BはAの約数ではありません");
+		}
 	}
 }
