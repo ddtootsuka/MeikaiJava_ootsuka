@@ -25,14 +25,12 @@ public class E3_2_if2 {
 		// キーボードから読み込ませた値をvariableB（整数B）に宣言する
 		int variableB = stdIn.nextInt();
 
-		// variableAとvariableBを比較させ、variableAがvariableBで割り切れれば"BはAの約数です"と画面に表示させ、割り切れなければ"BはAの約数ではありません"と画面に表示させる
+		// variableAをvariableBで割り、その余剰が0であれば"BはAの約数です"と画面に表示させる
 		if (variableA % variableB == 0) {
 			System.out.println("BはAの約数です");
-		} else if (variableA < variableB) {
-			System.out.println("BはAの約数ではありません");
-		}else {
+			// そうでなければ、"BはAの約数ではありません"と画面に表示させる
+		} else {
 			System.out.println("BはAの約数ではありません");
 		}
-		
 	}
 }
