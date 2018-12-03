@@ -17,21 +17,21 @@ public class E3_4_if4 {
 
 		// 画面に"変数a：" と表示させる
 		System.out.print("変数a：");
-		// キーボードから読み込ませた値をVariableAに宣言する
-		int VariableA = stdIn.nextInt();
+		// キーボードから読み込ませた値をvariableAに宣言する
+		int variableA = stdIn.nextInt();
 
 		// 画面に"変数b：" と表示させる
 		System.out.print("変数b：");
-		// キーボードから読み込ませた値をVariableBに宣言する
-		int VariableB = stdIn.nextInt();
+		// キーボードから読み込ませた値をvariableBに宣言する
+		int variableB = stdIn.nextInt();
 
-		// VariableAとVariableBを比較して、大きい場合は画面に"aのほうが大きいです。"と表示させる
-		if (VariableA > VariableB) {
+		// variableAとvariableBを比較して、variableAのほうが大きい場合は画面に"aのほうが大きいです。"と表示させる
+		if (variableA > variableB) {
 			System.out.println("aのほうが大きいです。");
 		}
 
-		// VariableAよりVariableBが大きければ、画面に"bのほうが大きいです。"と表示させる
-		else if (VariableA < VariableB) {
+		// variableAよりvariableBが大きければ、画面に"bのほうが大きいです。"と表示させる
+		else if (variableA < variableB) {
 			System.out.println("bのほうが大きいです。");
 		}
 
