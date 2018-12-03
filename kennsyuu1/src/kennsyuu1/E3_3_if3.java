@@ -27,18 +27,14 @@ public class E3_3_if3 {
 			System.out.println("その値は負です。");
 		}
 
-		else if(mustnum == 0) {
+		else if (mustnum == 0) {
 			System.out.println("その値は0です。");
 		}
 	}
 }
 
-
-
-	/*
-	 * 結果・・elseの場合も、else if(mustnum == 0) も結果は同じになりました。
-	 * elseでは、どの条件にも当てはまらなず偽となる場合、最終的に"その値は0です。"
-	 * となりますが、else if(mustnum == 0)は
-	 */
-	
-	
+/*
+ * 結果・・elseの場合も、else if(mustnum == 0)の場合 も結果は同じになりました。
+ * elseでは、else前に指定している条件に当てはまらない場合、 * 最終的に"その値は0です。"となりますが、 else if(mustnum ==
+ * 0)の場合は"0"と同じ値であればその処理を行うと、数値を指定している。
+ */
