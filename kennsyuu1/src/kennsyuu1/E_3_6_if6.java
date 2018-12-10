@@ -15,13 +15,13 @@ public class E_3_6_if6 {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
-		// 画面に"整数：" と表示させる
-		System.out.println("整数：");
+		// 画面に"正の整数：" と表示させる
+		System.out.println("正の整数：");
 		// キーボードから読み込ませた値をvariable（整数）に宣言する
 		int Variable = stdIn.nextInt();
 
 		// 整数と0を比較し整数の方が大きい場合は、次の処理を実行します
-		if (Variable > 0)
+		if (Variable > 0) {
 			// 整数が10で割れる場合、かつ余りが0の場合は、画面に"その値は10の倍数です"と表示させる
 			if (Variable % 10 == 0) {
 				System.out.println("その値は10の倍数です");
@@ -32,7 +32,7 @@ public class E_3_6_if6 {
 			}
 
 		// また、10の倍数や倍数でもない場合、０より小さい数が入力されたときは画面に"正でない値が入力されました"と表示させる
-		else {
+		}else {
 			System.out.println("正でない値が入力されました");
 		}
 	}
