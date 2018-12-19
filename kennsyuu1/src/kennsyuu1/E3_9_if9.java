@@ -16,15 +16,15 @@ public class E3_9_if9 {
 
 		// 画面に"整数A:"と表示させる
 		System.out.print("整数A:");
-		// 整数1という変数を代入する
+		// キーボードから読み込んだ値を、変数variable1に代入する
 		int variable1 = stdIn.nextInt();
 
 		// 画面に"整数B："と表示させる
 		System.out.print("整数B：");
-		// 整数2という変数を代入する
+		// キーボードから読み込んだ値を、変数variable2に代入する
 		int variable2 = stdIn.nextInt();
 
-		// 大きい方の値
+		// 変数bigに大きい方の値を代入する
 		int big;
 
 		// 整数2より整数1のほうが大きければ、変数bigに整数1を代入する
