@@ -28,8 +28,8 @@ public class E3_11_jyoukennenzan {
 		// aがｂより小さい場合はb-aを実行した値がdifferenceに入り、bがａより大きければa-bを実行した値がdifferenceに入る。
 		int difference = a < b ? (b - a) : (a - b);
 
-		// differeceが11より小さい場合、画面に"それらの差は10以下です。"と表示し、そうでなければ画面に"それらの差は11以上です。"と表示させる。
-		if (difference < 11) {
+		// differeceが10より小さい場合、画面に"それらの差は10以下です。"と表示し、そうでなければ画面に"それらの差は11以上です。"と表示させる。
+		if (difference <= 10) {
 			System.out.print("それらの差は10以下です。");
 		} else
 			System.out.print("それらの差は11以上です。");
