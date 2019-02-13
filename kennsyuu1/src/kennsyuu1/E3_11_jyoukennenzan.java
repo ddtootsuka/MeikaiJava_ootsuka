@@ -17,16 +17,16 @@ public class E3_11_jyoukennenzan {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
-		// 画面に"Variable1:"と表示させる。Variable1にキーボードから読み込んだ値を代入する。
-		System.out.print("Variable1:");
-		int Variable1 = stdIn.nextInt();
+		// 画面に"Integer1:"と表示させる。Integer1にキーボードから読み込んだ値を代入する。
+		System.out.print("Integer1:");
+		int Integer1 = stdIn.nextInt();
 
-		// 画面に"Variable2:"と表示させる。Variable2にキーボードから読み込んだ値を代入する。
-		System.out.print("Variable2:");
-		int Variable2 = stdIn.nextInt();
+		// 画面に"Integer2:"と表示させる。Integer2にキーボードから読み込んだ値を代入する。
+		System.out.print("Integer2:");
+		int Integer2 = stdIn.nextInt();
 
-		// Variable1がVariable2より小さい場合はVariable2-Variable1を実行した値がdifferenceに入り、Variable2がVariable1より大きければVariable1-Variable2を実行した値がdifferenceに入る。
-		int difference = Variable1 < Variable2 ? (Variable2 - Variable1) : (Variable1 - Variable2);
+		// Integer1がInteger2より小さい場合はInteger2-Integer1を実行した値がdifferenceに入り、Integer2がInteger1より大きければInteger1-Integer2を実行した値がdifferenceに入る。
+		int difference = Integer1 < Integer2 ? (Integer2 - Integer1) : (Integer1 - Integer2);
 
 		// もしdiffereceが10より小さい場合は、画面に"それらの差は10以下です。"と表示し、そうでなければ画面に"それらの差は11以上です。"と表示させる。
 		if (difference <= 10) {
