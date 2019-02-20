@@ -10,28 +10,37 @@ import java.util.Scanner;
  */
 
 public class E3_13_sanchi {
-	
+
 	// メインメソッドを宣言する
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 
-		//画面に"Variable1:"を表示させ、Variable1にキーボードから打ち込んだ値を代入
-		System.out.print("Variable1:"); int Variable1 = stdIn.nextInt();
-		//画面に"Variable2:"を表示させ、Variable2にキーボードから打ち込んだ値を代入
-		System.out.print("Variable2:"); int Variable2 = stdIn.nextInt();
-		//画面に"Variable3:"を表示させ、Variable3にキーボードから打ち込んだ値を代入
-		System.out.print("Variable3:"); int Variable3 = stdIn.nextInt();
-		
-		//centerにVariable1を代入
-		int center = Variable1;
-		//Variable2とcenterを比較して、Variable2の方が小さければcenterにその値を入れる
-		if(Variable2 < center) center = Variable2;
-		//そうでなければ、Variable2とcenterを比較し、Variable2の方が大きければcenterにその値を入れる
-		else if(Variable2 > center) center = Variable2;
-		//そうでなければ、Variable3とcenterを比較し、Variable3の方が大きければcenterにその値を入れる
-		else if(Variable3 > center) center = Variable3;
-		
-	   //画面に"中央値は（center）に入る値です。"と表示させる
+		// 画面に"integer1:"を表示させ、integer1にキーボードから打ち込んだ値を代入
+		System.out.print("integer1:");
+		int integer1 = stdIn.nextInt();
+		// 画面に"integer2:"を表示させ、integer2にキーボードから打ち込んだ値を代入
+		System.out.print("integer2:");
+		int integer2 = stdIn.nextInt();
+		// 画面に"integer3:"を表示させ、integer3にキーボードから打ち込んだ値を代入
+		System.out.print("integer3:");
+		int integer3 = stdIn.nextInt();
+
+		// centerにinteger1を代入
+		int center = integer1;
+		// integer2とcenterを比較して、integer2の方が小さければcenterにその値を入れる
+		if (integer2 < center) {
+			center = integer2;
+		}
+		// そうでなければ、integer2とcenterを比較し、integer2の方が大きければcenterにその値を入れる
+		else if (integer2 > center) {
+			center = integer2;
+		}
+		// そうでなければ、integer3とcenterを比較し、integer3の方が大きければcenterにその値を入れる
+		else if (integer3 > center) {
+			center = integer3;
+		}
+
+		// 画面に"中央値は（center）に入る値です。"と表示させる
 		System.out.println("中央値は" + center + "です。");
-}
+	}
 }
